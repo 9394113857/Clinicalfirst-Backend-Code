@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development files
+.env
+venv/
+.env.*
+.vscode/
+
+# Dependency directories
+lib/
+lib64/
+parts/
+sdist/
+local/
+istanbul/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ids
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Other generated files
+*.bak
+*.swp
+*.zip
+*.gz

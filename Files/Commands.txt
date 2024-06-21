@@ -1,0 +1,17 @@
+1.Save the updated configurations or libraies to requirements.txt:-
+py -m or pip freeze > requirements.txt
+
+3.Install requirements.txt:-
+py -m pip install -r requirements.txt
+
+3.Install specific requirements:-
+py -m or pip install flask
+
+4.Upgrade pip:-
+py -m or pip install --upgrade pip
+
+
+
+
+
+
