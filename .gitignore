@@ -1,41 +1,54 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Ignore virtual environments
+venv/                 # Python virtual environment
+env/                  # Another common virtual environment name
 
-# Local development files
-.env
-venv/
-.env.*
-.vscode/
+# Ignore environment variables
+.env                  # Environment variable file
+.env.*                # Additional environment variable files (e.g., .env.local, .env.dev)
 
-# Dependency directories
-lib/
-lib64/
-parts/
-sdist/
-local/
-istanbul/
+# Ignore IDE settings
+.vscode/              # Visual Studio Code directory
+.idea/                # IntelliJ IDEA directory
+*.iml                 # IntelliJ IDEA module file
+*.ipr                 # IntelliJ IDEA project file
+*.iws                 # IntelliJ IDEA workspace file
+*.ids                 # IntelliJ IDEA data sources
 
-# IDE files
-.idea/
-*.iml
-*.ipr
-*.iws
-*.ids
+# Ignore dependency directories
+lib/                  # Python dependency directory
+lib64/                # Python dependency directory
+parts/                # Dependency directory
+sdist/                # Dependency directory
+local/                # Dependency directory
+istanbul/             # Dependency directory
 
-# System files
-.DS_Store
-Thumbs.db
+# Ignore system files
+.DS_Store             # macOS system file
+Thumbs.db             # Windows system file
 
-# Log files
-*.log
+# Ignore log files
+*.log                 # Log files
 
-# Temporary files
-*.tmp
+# Ignore temporary files
+*.tmp                 # Temporary files
 
-# Other generated files
-*.bak
-*.swp
-*.zip
-*.gz
+# Ignore database files
+*.db                  # SQLite database files
+*.sqlite              # SQLite database files
+*.dbf                 # DBF database files
+
+# Ignore configuration files
+*.ini                 # Configuration files
+*.cfg                 # Configuration files
+*.conf                # Configuration files
+
+# Ignore compressed files
+*.zip                 # ZIP archives
+*.gz                  # GZIP compressed files
+*.bz2                 # BZIP2 compressed files
+*.xz                  # XZ compressed files
+
+# Ignore compiled files
+*.pyc                 # Python bytecode files
+*.pyo                 # Python optimized files
+*$py.class            # Compiled Python classes
