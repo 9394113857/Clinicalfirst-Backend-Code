@@ -1,6 +1,7 @@
 # Ignore virtual environments
 venv/                 # Python virtual environment
 env/                  # Another common virtual environment name
+flask-project-env/
 
 # Ignore environment variables
 .env                  # Environment variable file
