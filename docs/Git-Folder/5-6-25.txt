@@ -1,0 +1,26 @@
+git commit -m "Setup Flask SQLite Project - Initial Database & Blueprint Setup
+
+1. Configured Flask app with SQLite database connection.
+2. Created SQLAlchemy models and initialized database file.
+3. Implemented user blueprint with routes for insert, list, and login.
+4. Registered blueprint in main Flask app.
+5. Verified database file created successfully but no user data yet (initial run).
+6. Project structure ready for API route testing via Postman.
+
+Committed on: $(date '+%Y-%m-%d %H:%M:%S')
+"
+
+-------------------------------------------------
+
+# Commit with a detailed message including current date/time and branch name
+git commit -m "🚀 Initial project structure created (not yet tested)
+
+1. Created base Flask application and project structure
+2. Set up initial API endpoints and blueprints
+3. Organized code into modules for scalability and maintainability
+4. Prepared backend for further development and integration
+5. Git branch 'initial-setup' created for initial testing purpose
+
+Note: This is just to verify the structure; not yet tested.
+
+Committed on: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
